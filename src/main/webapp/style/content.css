@@ -1,0 +1,51 @@
+#content-sec {
+	background-color: white;
+	width: 100%;
+	background-position: 0px 0px;
+	background-image: url(/img/shade.png);
+	background-repeat: repeat-x;
+	text-align: center;
+}
+
+#content {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#reportpane {
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+div#c_menu {
+	width: 100%;
+	padding-top: 20px;
+}
+
+ul#c_menu_nav {
+	
+}
+
+ul#c_menu_nav li {
+	float: left;
+	border-radius:5px;
+}
+
+ul#c_menu_nav li.selected {
+	color: black;
+	border:1px solid silver;
+}
+
+ul#c_menu_nav li div {
+	text-decoration: none;
+	color: #666;
+	display: block;
+	padding: 5px 10px 3px 10px;
+}
+
+ul#c_menu_nav li.selected div {
+	color: #5c972c;
+}
+

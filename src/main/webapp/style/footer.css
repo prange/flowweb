@@ -1,0 +1,36 @@
+#footer-sec {
+	width: 100%;
+	background-position: 0px 0px;
+	background-image: url(/img/shade.png);
+	background-repeat: repeat-x;
+	min-height: 150px;
+}
+
+#footer {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#footer-logo {
+	width: 100%;
+}
+
+#logo {
+	width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#foursparklogo {
+	font-family: 'Comfortaa', cursive;
+	font-weight: 700;
+	color: #222;
+	font-size: 21px;
+	text-shadow: 1px 1px 2px #444;
+}
+
+.logoimg {
+	vertical-align: -30%;
+	height: 40px;
+}

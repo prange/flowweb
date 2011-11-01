@@ -1,0 +1,29 @@
+@CHARSET "UTF-8";
+
+body {
+	background-color: #ddd;
+	font-family: 'Varela Round', sans-serif;
+	color:gray;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	display:list-item;
+}
+ul{
+	list-style: none;
+}
+
+a{
+	color:#4c871c;
+	text-decoration: none;
+}
+
+a:hover{
+	color:#2c571c;
+	text-decoration: underline;
+}

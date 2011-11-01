@@ -1,0 +1,31 @@
+#header-sec{
+	width: 100%;
+	height: 50px;
+	background-position: 0px 0px;
+	background-image:url(/img/shade_smaller.png);
+	background-repeat: repeat-x;
+	background-color: #273B52;
+}
+
+#header{
+	width: 800px;
+	height: 130px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#flowlogo{
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Comfortaa', cursive;
+	font-weight: 700;
+	color:white;
+	font-size:21px;
+	text-shadow:2px 2px 2px black;
+	padding-top: 5px;
+}
+
+#flowlogoimg{
+	vertical-align: -30%;
+	height: 40px;
+}

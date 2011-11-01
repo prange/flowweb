@@ -1,10 +1,10 @@
-name := "Flow web"
+name := "flow-web"
 
 version := "0.1"
 
 organization := "com.fourspark"
 
-scalaVersion := "2.9.0-1"
+scalaVersion := "2.9.1"
 
 scalacOptions := Seq("-deprecation", "-unchecked")
 
@@ -21,7 +21,8 @@ libraryDependencies ++= Seq(
 	"javax.servlet" % "servlet-api" % "2.3" % "provided",
 	"org.eclipse.jetty" % "jetty-webapp" % "7.3.0.v20110203" % "container",
 	"org.scalaz" %% "scalaz-core" % "6.0.2",
-	"org.specs2" %% "specs2" % "1.4"
+	"org.specs2" %% "specs2" % "1.6.1",
+	"com.fourspark" %% "flow-core" % "0.1"
 )
   
   
